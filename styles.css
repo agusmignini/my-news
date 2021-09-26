@@ -112,6 +112,10 @@ aside q::before {
     color:#ffffff
 }
 
+h1.title {
+    width: 80%;
+}
+
 .summary {
     color: #6A6A6A;
     font-family: 'Open Sans', sans-serif;
@@ -145,9 +149,12 @@ aside q::before {
     color: #e2127A;
 }
 
+.container {
+    width: 73%;
+}
+
 .figure-1 img {
-    height: 398.528px;
-    width: 598.153px;
+    width: 100%;
 }
 
 .figure-1 figcaption {
@@ -220,9 +227,7 @@ aside q::before {
 }
 
 .figure-2 img {
-    height: 447.972px;
-    width: 739.931px;
-    
+    width: 100%;
 }
 
 .figure-2 figcaption {
@@ -240,4 +245,58 @@ aside q::before {
 .figure-2 figcaption span {
     font-style: normal;
     opacity: 0.75;    
+}
+
+.correction strong{
+    font-weight: bold;
+}
+
+h2.video-title {
+    color: rgb(66,66,66);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 35.1562px;
+    line-height: 42.1875px;
+    margin-bottom: 25px;
+}
+
+video {
+    width: 100%;
+}
+
+#video figcaption {
+    color: rgb(66,66,66);
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    margin-top: 25px;
+}
+
+.more-news-title {
+    font-family: 'Gemunu Libre', Helvetica, sans-serif;
+    font-size: 34.2px;
+    font-weight: 500;
+    letter-spacing: 1.71px;
+    padding-top: 12px;
+    padding-right: 8px;
+}
+
+ul.more-news {
+    list-style: none;
+    padding: 0;
+}
+
+.more-news li {
+    padding: 8px 0px;
+    list-style: none;
+}
+.more-news a {
+    color: #e2127A;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    
 }
