@@ -9,9 +9,18 @@ main {
 
 h1 {
     color: #000000;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 38px;
+}
+
+h3 {
+    color: #424242;
+    font-family: 'Gemunu Libre', Helvetica, sans-serif;
+    font-size: 28.125px;
+    font-weight: 500;
+    line-height: 33.75px;
+    margin-bottom: 10.8px;
 }
 
 figure {
@@ -32,6 +41,26 @@ article p a {
     cursor: pointer;
 }
 
+aside {
+    float: right;
+    position: relative;
+    padding-top: 18px;
+    padding-right: 22.5px;
+    color: #e2127A;
+    font-family: 'Gemunu Libre', Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.72px;
+    line-height: 36px;
+    width: 45%;
+    margin-left: 5%;
+}
+
+aside q::before {
+    content: "";
+}
+
 #main-nav a {
     display: flex;
     align-items: center;
@@ -40,7 +69,7 @@ article p a {
     background-color: #000;
     display:block;
     height: inherit;
-    font-family: "Gemunu Libre", Arial, Helvetica, sans-serif;
+    font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
@@ -120,6 +149,7 @@ article p a {
     height: 398.528px;
     width: 598.153px;
 }
+
 .figure-1 figcaption {
     color: #626262;
     font-family: Helvetica, sans-serif;
@@ -132,3 +162,82 @@ article p a {
     border-bottom-width: 1px;
 }
 
+#table {
+    font-family: 'Open Sans', sans-serif;
+    font-feature-settings: "tnum";
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#table tbody tr:nth-child(odd) {
+    background-color: #f9f8f3ff;
+}
+
+#table th, #table td {
+    padding: 10.125px 11.25px;
+    border: 1px solid #ccd1d5;
+}
+
+#table th {
+    color: #e2127A;
+    font-weight: 700;
+    border: none;
+}
+
+#table td {
+    color: #424242;
+    font-weight: 400;
+}
+
+#table tbody tr td:first-child {
+    border-left: none;
+}
+
+#table tbody tr td:last-child {
+    border-right: none;
+}
+
+#table tbody tr td:nth-child(2) {
+    font-weight: bold;
+}
+
+.phones {
+    color: #424242;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+}
+
+.phones li a {
+    color: #e2127A;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+}
+
+.figure-2 img {
+    height: 447.972px;
+    width: 739.931px;
+    
+}
+
+.figure-2 figcaption {
+    color: #626262;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-style: italic;
+    line-height: 21.6px;
+    padding: 4px 0px;
+    border-bottom-color: rgb(231, 231, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.figure-2 figcaption span {
+    font-style: normal;
+    opacity: 0.75;    
+}
