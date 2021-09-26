@@ -61,21 +61,33 @@ aside q::before {
     content: "";
 }
 
+#main-nav {
+    background-color: #000;
+    padding: 8px 0;
+}
+
 #main-nav a {
     display: flex;
     align-items: center;
     justify-content: center;
     color:#ffffff;
-    background-color: #000;
     display:block;
     height: inherit;
     font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
     text-decoration: none;
+    background-color: #000;
 }
 
 #main-nav ul {
     list-style: none;
-    display:flex;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav .nav-container {
+    max-width: 1100px;
+    margin: auto;
 }
 
 #main-nav li {
@@ -298,5 +310,70 @@ ul.more-news {
     font-weight: 400;
     line-height: 18px;
     text-decoration: none;
-    
+}
+
+footer {
+    background-color: #000000;
+    width: 100%;
+    padding: 50px 0 30px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer-list {
+    flex-grow: 1;
+}
+
+.footer-list li {
+    display: inline;
+    padding-right: 4px;
+}
+
+.footer-list a {
+    color: #e2127A;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+
+.dot {
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 2px;
+    margin-left: 4px;
+}
+
+.voxmedia-logo {
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+}
+
+.rights a {
+    margin-bottom: 8px;
+    color: #e2127A;
+    text-decoration: none;
 }
