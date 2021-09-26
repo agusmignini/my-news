@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+figure {
+    margin: 0;
+}
+
+article p {
+    color: #424242;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    margin-bottom: 21.6px;
+}
+
+article p a {
+    color:#e2127A;
+    cursor: pointer;
+}
+
+#main-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    background-color: #000;
+    display:block;
+    height: inherit;
+    font-family: "Gemunu Libre", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#main-nav ul {
+    list-style: none;
+    display:flex;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#main-nav li:hover .submenu > li {
+    display: block;
+    top: 0px
+}
+
+.submenu li {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.arrow {
+    margin-left: 4px;
+    color: #e2127A;
+    font-size: 7px;
+}
+
+.arrow:hover {
+    color:#ffffff
+}
+
+.summary {
+    color: #6A6A6A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21.6px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.author-container {
+    color: #6A6A6A;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+}
+
+.author-container a {
+    text-decoration: none;
+    color: #e2127A;
+}
+
+.disclosure {
+    color: #6A6A6A;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.disclosure a {
+    text-decoration: none;
+    color: #e2127A;
+}
+
+.figure-1 img {
+    height: 398.528px;
+    width: 598.153px;
+}
+.figure-1 figcaption {
+    color: #626262;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+    line-height: 21.6px;
+    opacity: 0.75;
+    padding: 4px 0px;
+    border-bottom-color: rgb(231, 231, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
