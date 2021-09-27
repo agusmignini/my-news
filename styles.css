@@ -28,7 +28,7 @@ figure {
 }
 
 article p {
-    margin-bottom: 21.6px;
+    margin-bottom: 12px;
     line-height: 28.8px;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
@@ -48,17 +48,17 @@ article p a:hover {
 
 aside {
     position: relative;
-    margin-left: 5%;
-    width: 45%;
-    letter-spacing: 0.72px;
-    line-height: 36px;
     padding-top: 18px;
     padding-right: 22.5px;
+    margin-left: 5%;
+    width: 45%;
     float: right;
     font-family: 'Gemunu Libre', Helvetica, sans-serif;
     font-size: 36px;
     font-style: italic;
     font-weight: 600;
+    letter-spacing: 0.72px;
+    line-height: 36px;
     color: #e2127A; 
 }
 
@@ -140,7 +140,7 @@ aside q::before {
 }
 
 #links {
-    margin-top: 16px;
+    margin-top: 40px;
 }
 
 #links a {
@@ -168,10 +168,12 @@ aside q::before {
 
 h1.title {
     margin-top: 10px;
+    margin-bottom: 0;
     width: 80%;
 }
 
 .summary {   
+    margin-top: 12px;
     font-family: 'Open Sans', sans-serif;
     font-size: 21.6px;
     font-style: italic;
@@ -196,6 +198,7 @@ h1.title {
 }
 
 p.disclosure {    
+    margin-top: 6px;
     font-family: Helvetica, sans-serif;
     font-size: 13.5px;
     font-style: italic;
@@ -223,7 +226,7 @@ p.disclosure a:hover {
 .figure-1 figcaption {
     padding: 8px 0px;
     line-height: 21.6px;
-    border-bottom-color: rgb(231, 231, 232);
+    border-bottom-color: #e7e7e8;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     font-family: Helvetica, sans-serif;
@@ -300,7 +303,7 @@ ul.phones {
 
 .figure-2 figcaption {
     padding: 8px 0px;
-    border-bottom-color: rgb(231, 231, 232);
+    border-bottom-color: #e7e7e8;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     line-height: 21.6px;
@@ -319,12 +322,12 @@ p.correction {
     margin-bottom: 40px;
     margin-block-start: 0px;
     padding-bottom: 45px;
-    border-bottom-color: rgb(231, 231, 232);
+    border-bottom-color: #e7e7e8;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 
-.correction strong{
+.correction strong {
     font-weight: bold;
 }
 
@@ -344,7 +347,7 @@ h2.video-title {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 35.1562px;
-    color: rgb(66,66,66);
+    color: #424242;
 }   
 
 video {
@@ -353,11 +356,15 @@ video {
 
 #video figcaption {
     margin-top: 25px;
+    padding-bottom: 30px;
+    border-bottom-color: #e7e7e8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 28.8px;
-    color: rgb(66,66,66); 
+    color: #424242; 
 }
 
 .more-news-title {
@@ -438,7 +445,7 @@ footer {
     height: 4px;
     width: 4px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .voxmedia-logo {
@@ -454,7 +461,7 @@ footer {
     font-family: Helvetica, sans-serif;
     font-family: Helvetica, sans-serif;
     font-size: 13.5px;
-    color: white;
+    color: #ffffff;
 }
 
 .rights a {
