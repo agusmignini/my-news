@@ -139,11 +139,11 @@ aside q::before {
     color:#ffffff
 }
 
-#links {
+.links {
     margin-top: 40px;
 }
 
-#links a {
+.links a {
     padding-top: 8px;
     padding-right: 14px;
     font-family: 'Gemunu Libre', Helvetica, sans-serif;
@@ -154,15 +154,15 @@ aside q::before {
     text-decoration: none;
 }
 
-#links span:nth-child(1) a {
+.links span:nth-child(1) a {
     color: #EC008A;
 }
 
-#links span:nth-child(2) a {
+.links span:nth-child(2) a {
     color: #372b94;
 }
 
-#links span:nth-child(3) a {
+.links span:nth-child(3) a {
     color: #f02d25;
 }
 
