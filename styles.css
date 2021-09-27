@@ -8,19 +8,19 @@ main {
 }
 
 h1 {
-    color: #000000;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 38px;
+    color: #000000;  
 }
 
 h3 {
-    color: #424242;
+    margin-bottom: 10.8px;
+    line-height: 33.75px;
     font-family: 'Gemunu Libre', Helvetica, sans-serif;
     font-size: 28.125px;
     font-weight: 500;
-    line-height: 33.75px;
-    margin-bottom: 10.8px;
+    color: #424242; 
 }
 
 figure {
@@ -28,12 +28,12 @@ figure {
 }
 
 article p {
-    color: #424242;
+    margin-bottom: 21.6px;
+    line-height: 28.8px;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 28.8px;
-    margin-bottom: 21.6px;
+    color: #424242;
 }
 
 article p a {
@@ -41,20 +41,25 @@ article p a {
     cursor: pointer;
 }
 
+article p a:hover {
+    color: #a32a66fa;
+    text-decoration: none;
+}
+
 aside {
-    float: right;
     position: relative;
+    margin-left: 5%;
+    width: 45%;
+    letter-spacing: 0.72px;
+    line-height: 36px;
     padding-top: 18px;
     padding-right: 22.5px;
-    color: #e2127A;
+    float: right;
     font-family: 'Gemunu Libre', Helvetica, sans-serif;
     font-size: 36px;
     font-style: italic;
     font-weight: 600;
-    letter-spacing: 0.72px;
-    line-height: 36px;
-    width: 45%;
-    margin-left: 5%;
+    color: #e2127A; 
 }
 
 aside q::before {
@@ -62,38 +67,47 @@ aside q::before {
 }
 
 #main-nav {
-    background-color: #000;
     padding: 8px 0;
+    background-color: #000; 
+}
+
+#main-nav .logo {
+    width: 180px;
+    margin-right: 20px;
 }
 
 #main-nav a {
     display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    color:#ffffff;
-    display:block;
     height: inherit;
+    background-color: #000;
+    color:#ffffff;
     font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
     text-decoration: none;
-    background-color: #000;
+    white-space: nowrap;
+    margin-right: 20px;
 }
 
 #main-nav ul {
-    list-style: none;
-    display: flex;
+    display: flex;   
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 #main-nav .nav-container {
+    display: flex;
+    align-items: center;
     max-width: 1100px;
     margin: auto;
 }
 
 #main-nav li {
-    width: 100%;
     text-align: center;
     position: relative;
+    width: 100%;
 }
 
 #main-nav li:hover .submenu > li {
@@ -105,6 +119,7 @@ aside q::before {
     display: none;
     position: absolute;
     width: 100%;
+    min-width: 150px;
 }
 
 .submenu {
@@ -116,8 +131,8 @@ aside q::before {
 
 .arrow {
     margin-left: 4px;
-    color: #e2127A;
     font-size: 7px;
+    color: #e2127A;
 }
 
 .arrow:hover {
@@ -128,19 +143,19 @@ h1.title {
     width: 80%;
 }
 
-.summary {
-    color: #6A6A6A;
+.summary {   
     font-family: 'Open Sans', sans-serif;
     font-size: 21.6px;
     font-style: italic;
     font-weight: 400;
+    color: #6A6A6A;
 }
 
-.author-container {
-    color: #6A6A6A;
+.author-container {    
     font-family: Helvetica, sans-serif;
     font-size: 13.5px;
     font-weight: 300;
+    color: #6A6A6A;
 }
 
 .author-container a {
@@ -148,17 +163,25 @@ h1.title {
     color: #e2127A;
 }
 
-.disclosure {
-    color: #6A6A6A;
+.author-container a:hover {
+    color: #a32a66fa;
+}
+
+p.disclosure {    
     font-family: Helvetica, sans-serif;
     font-size: 13.5px;
     font-style: italic;
     font-weight: 400;
+    color: #6A6A6A;
 }
 
-.disclosure a {
+p.disclosure a {
     text-decoration: none;
     color: #e2127A;
+}
+
+p.disclosure a:hover {
+    color:#e2127A;
 }
 
 .container {
@@ -170,24 +193,24 @@ h1.title {
 }
 
 .figure-1 figcaption {
-    color: #626262;
-    font-family: Helvetica, sans-serif;
-    font-size: 13.5px;
+    padding: 8px 0px;
     line-height: 21.6px;
-    opacity: 0.75;
-    padding: 4px 0px;
     border-bottom-color: rgb(231, 231, 232);
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;       
+    color: #626262;
+    opacity: 0.75;
 }
 
 #table {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
     font-family: 'Open Sans', sans-serif;
     font-feature-settings: "tnum";
-    font-size: 16px;
-    width: 100%;
-    text-align: left;
-    border-collapse: collapse;
+    font-size: 16px; 
 }
 
 #table tbody tr:nth-child(odd) {
@@ -200,14 +223,14 @@ h1.title {
 }
 
 #table th {
-    color: #e2127A;
-    font-weight: 700;
     border: none;
+    font-weight: 700;
+    color: #e2127A; 
 }
 
-#table td {
-    color: #424242;
+#table td {    
     font-weight: 400;
+    color: #424242;
 }
 
 #table tbody tr td:first-child {
@@ -222,36 +245,41 @@ h1.title {
     font-weight: bold;
 }
 
-.phones {
-    color: #424242;
+ul.phones {
+    line-height: 28.8px;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 28.8px;
+    color: #424242;
 }
 
 .phones li a {
-    color: #e2127A;
+    line-height: 28.8px;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 28.8px;
+    color: #e2127A;
 }
 
+.phones a:hover {
+    color: #a32a66fa;
+    text-decoration: none;
+}
+    
 .figure-2 img {
     width: 100%;
 }
 
 .figure-2 figcaption {
-    color: #626262;
-    font-family: Helvetica, sans-serif;
-    font-size: 13.5px;
-    font-style: italic;
-    line-height: 21.6px;
-    padding: 4px 0px;
+    padding: 8px 0px;
     border-bottom-color: rgb(231, 231, 232);
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    line-height: 21.6px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-style: italic; 
+    color: #626262;
 }
 
 .figure-2 figcaption span {
@@ -259,44 +287,65 @@ h1.title {
     opacity: 0.75;    
 }
 
+p.correction {
+    margin-bottom: 40px;
+    margin-block-start: 0px;
+    padding-bottom: 45px;
+    border-bottom-color: rgb(231, 231, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
 .correction strong{
     font-weight: bold;
 }
 
+span.box-title {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #000000;
+    line-height: 20.8px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color: #ffffff;        
+}
+
 h2.video-title {
-    color: rgb(66,66,66);
+    margin-bottom: 25px;
+    line-height: 42.1875px;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 35.1562px;
-    line-height: 42.1875px;
-    margin-bottom: 25px;
-}
+    color: rgb(66,66,66);
+}   
 
 video {
     width: 100%;
 }
 
 #video figcaption {
-    color: rgb(66,66,66);
+    margin-top: 25px;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 28.8px;
-    margin-top: 25px;
+    color: rgb(66,66,66); 
 }
 
 .more-news-title {
+    padding-top: 12px;
+    padding-right: 8px;
+    margin-bottom:1px;
     font-family: 'Gemunu Libre', Helvetica, sans-serif;
     font-size: 34.2px;
     font-weight: 500;
     letter-spacing: 1.71px;
-    padding-top: 12px;
-    padding-right: 8px;
 }
 
 ul.more-news {
-    list-style: none;
+    margin-top:2px;
     padding: 0;
+    list-style: none;    
 }
 
 .more-news li {
@@ -304,26 +353,30 @@ ul.more-news {
     list-style: none;
 }
 .more-news a {
-    color: #e2127A;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
     text-decoration: none;
+    color: #e2127A;
+}
+
+.more-news a:hover {
+    color: #a32a66fa
 }
 
 footer {
-    background-color: #000000;
     width: 100%;
     padding: 50px 0 30px;
+    background-color: #000000;
 }
 
 .footer-container {
-    margin: 0 auto;
-    max-width: 1100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 .footer-logo {
@@ -340,20 +393,24 @@ footer {
 }
 
 .footer-list a {
-    color: #e2127A;
     font-family: Helvetica, sans-serif;
     font-size: 13.5px;
     text-decoration: none;
+    color: #e2127A;
+}
+
+.footer-list a:hover {
+    color:#690f3c;
 }
 
 .dot {
     display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 4px;
     height: 4px;
     width: 4px;
     border-radius: 50%;
     background-color: white;
-    margin-bottom: 2px;
-    margin-left: 4px;
 }
 
 .voxmedia-logo {
@@ -365,15 +422,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: white;
     text-align: right;
     font-family: Helvetica, sans-serif;
     font-family: Helvetica, sans-serif;
     font-size: 13.5px;
+    color: white;
 }
 
 .rights a {
     margin-bottom: 8px;
-    color: #e2127A;
     text-decoration: none;
+    color: #e2127A;
+}
+
+.rights a:hover {
+    color:#690f3c;
 }
