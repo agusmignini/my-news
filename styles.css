@@ -139,7 +139,35 @@ aside q::before {
     color:#ffffff
 }
 
+#links {
+    margin-top: 16px;
+}
+
+#links a {
+    padding-top: 8px;
+    padding-right: 14px;
+    font-family: 'Gemunu Libre', Helvetica, sans-serif;
+    font-size: 15.3px;
+    font-weight: 500;
+    line-height: 15.3px;
+    letter-spacing: 1.071px;
+    text-decoration: none;
+}
+
+#links span:nth-child(1) a {
+    color: #EC008A;
+}
+
+#links span:nth-child(2) a {
+    color: #372b94;
+}
+
+#links span:nth-child(3) a {
+    color: #f02d25;
+}
+
 h1.title {
+    margin-top: 10px;
     width: 80%;
 }
 
