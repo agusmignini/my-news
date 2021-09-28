@@ -25,8 +25,11 @@ Like the first problematic, progress must be saved in a public GitHub repository
 The following news was chosen: [Here's exactly how much bigger the iPhone 13 batteries are](https://www.theverge.com/2021/9/17/22678607/iphone-13-reported-battery-sizes-increase-laptop-comparison "Here’s exactly how much bigger the iPhone 13 batteries are")
 
 The project was made using HTML ans CSS.
+## GitHub Pages
+You can see my **first week project** following this link: [GitHub Page 1](https://agusmignini.github.io/my-news/ "GitHub Page 1")
+You can see my **second week proyect** following this link: [GitHub Page 2](https://agusmignini.github.io/my-news/news-2 "GitHub Page 2")
 ### ***Notes***
-- The index.html file doesn't look like the news-2 file since the style was made based on the latter.
-- The icons of Facebok, Twitter, share and user were not taken into account.
-- The video under the section "featured from the verge" changes when you reload the page of the original news so it will not be the same as I chose.
-- The fonts aren´t the same in the titles and in certain elements since you have to pay to use them.
+1. The index.html file doesn't look like the news-2 file since the style was made based on the latter.
+2. The icons of Facebok, Twitter, share and user were not taken into account.
+3. The video under the section "featured from the verge" changes when you reload the page of the original news so it will not be the same as I chose.
+4. The fonts aren´t the same in the titles and in certain elements since you have to pay to use them.
